@@ -16,9 +16,8 @@ db:
 branch: master
 image:
   frontend:
-    tag: latest-features-f1 
+    tag: latest-prod
   backend:
     tag: latest-prod
 clusters: 
-  - in-cluster
   - second-cluster
