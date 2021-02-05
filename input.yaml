@@ -13,7 +13,7 @@ db:
   secrets:
   - MYSQL_ROOT_PASSWORD: password
   - MYSQL_DATABASE: thesisAppMariadb 
-branch: master
+branch: releases/r1
 image:
   frontend:
     tag: latest-prod
