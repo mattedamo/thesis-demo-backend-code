@@ -4,7 +4,7 @@ backend:
 - port: 8080
   type: service
 frontend:
-- replicas: 1
+- replicas: 2
   type: deployment
 - port: 80
   type: service
@@ -20,5 +20,4 @@ image:
   backend:
     tag: latest-prod
 clusters: 
-  - second-cluster
   - in-cluster
